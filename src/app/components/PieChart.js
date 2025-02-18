@@ -6,9 +6,9 @@ const PieChart = () => {
   const canvasRef = useRef(null)
   const [tooltip, setTooltip] = useState(null)
 
-  const data = [100] // Only community-owned (100%)
-  const colors = ['#4CAF50'] // Green for community-owned
-  const labels = ['Community Owned']
+  const data = [99, 1] // Only community-owned (100%)
+  const colors = ['#FF6384', '#FFCC66'] // Green for community-owned
+  const labels = ['Community Owned', 'Development']
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -30,29 +30,29 @@ const PieChart = () => {
       })
     }
 
-    const showTooltip = (e) => {
-      const mouseX = e.offsetX
-      const mouseY = e.offsetY
+    // const showTooltip = (e) => {
+    //   const mouseX = e.offsetX
+    //   const mouseY = e.offsetY
 
-      setTooltip({
-        content: 'Community Owned', // Always show this since there's only one slice
-        x: mouseX,
-        y: mouseY,
-      })
-    }
+    //   setTooltip({
+    //     content: 'Community Owned', // Always show this since there's only one slice
+    //     x: mouseX,
+    //     y: mouseY,
+    //   })
+    // }
 
     const hideTooltip = () => {
       setTooltip(null) // Hide the tooltip when the mouse leaves
     }
 
-    canvas.addEventListener('mousemove', showTooltip)
-    canvas.addEventListener('mouseleave', hideTooltip)
+    // canvas.addEventListener('mousemove', showTooltip)
+    // canvas.addEventListener('mouseleave', hideTooltip)
 
     drawPieChart()
 
-    return () => {
-      canvas.removeEventListener('mousemove', showTooltip)
-    }
+    // return () => {
+    //   canvas.removeEventListener('mousemove', showTooltip)
+    // }
   }, [])
 
   return (
@@ -78,7 +78,7 @@ const PieChart = () => {
       </div>
 
       {/* Legend below the chart */}
-      <div className='mt-4 flex justify-center'>
+      <div className='mt-4 flex justify-center gap-20'>
         {labels.map((label, index) => (
           <div key={index} style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
             <div
