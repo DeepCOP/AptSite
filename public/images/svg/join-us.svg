@@ -1,0 +1,14 @@
+
+    <svg width="100" height="50" viewBox="0 0 164 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="13.1791" y="8.05426" width="149.711" height="43.9937" rx="11" transform="rotate(7.50433 13.1791 8.05426)" fill="#FFD700" stroke="black" stroke-width="2"/>
+        <rect x="7.86065" y="1.12204" width="149.711" height="43.9937" rx="11" transform="rotate(7.50433 7.86065 1.12204)" fill="url(#paint0_linear_2_14)" stroke="black" stroke-width="2"/>
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Aldrich" font-size="18" fill="black">Join Us</text>
+        <defs>
+        <linearGradient id="paint0_linear_2_14" x1="-12.2214" y1="-3.43236" x2="153.905" y2="42.5613" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#6E7EF7"/>
+        <stop offset="0.458115" stop-color="#C0837C"/>
+        <stop offset="1" stop-color="#E8853E"/>
+        </linearGradient>
+        </defs>
+    </svg>
+
