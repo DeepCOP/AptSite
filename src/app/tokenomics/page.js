@@ -15,7 +15,7 @@ function page() {
         <PieChart />
         <div className='pt-[20px] my-[150px] text-[24px] font-normal text-white w-[50%]' style={{ fontFamily: 'Aldrich, serif' }}>
           <p>
-            APT. Meme Coin is 99% community-owned, built on passion, rhythm, and unstoppable energy—just like the ROSÉ that inspired it. Just pure community power driving this movement. Only 1% is reserved for development.
+            APT. Meme Coin is 99% community-owned, built on passion, rhythm, and unstoppable energy—just like the ROSÉ that inspired it. Just pure community power driving this movement. Only 1% is reserved for development. All authority to mint or freeze tokens revoked!
             <br />
             <br />
             &quot;<span className='italic'>We ain’t stopping, we just go&quot;</span>— and that’s exactly what APT. Coin stands for. Powered by music lovers, crypto believers, and dreamers, this coin is more than just a token—it’s a vibe, a movement,
