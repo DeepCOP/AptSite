@@ -14,14 +14,14 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata = {
-  title: 'APT Meme Coin - The Future of Fun Crypto',
-  description: 'Join the APT Meme Coin revolution! A fun, community-driven cryptocurrency built for the next generation of investors and meme lovers.',
-  keywords: 'APT Meme Coin, Crypto, Meme Coin, Blockchain, Web3, Cryptocurrency',
-  author: 'APT Meme Coin Team',
+  title: 'APT. Meme Coin - The Future of Fun Crypto',
+  description: 'Join the APT. Meme Coin revolution! A fun, community-driven cryptocurrency built for the next generation of investors and meme lovers.',
+  keywords: 'APT. Meme Coin, Crypto, Meme Coin, Blockchain, Web3, Cryptocurrency',
+  author: 'APT. Meme Coin Team',
   icons: { icon: '/apt-coin.ico', shortcut: '/apt-coin.ico', apple: '/apt-coin.ico' },
   openGraph: {
-    title: 'APT Meme Coin - The Future of Fun Crypto',
-    description: 'Discover APT Meme Coin, a revolutionary community-driven cryptocurrency on the blockchain. Join the movement today!',
+    title: 'APT. Meme Coin - The Future of Fun Crypto',
+    description: 'Discover APT. Meme Coin, a revolutionary community-driven cryptocurrency on the blockchain. Join the movement today!',
     url: 'https://apateu.art/',
     type: 'website',
     image: '/apt-coin.ico', // Update with actual image URL
@@ -29,7 +29,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     site: '@aptmemecoin', // Update with actual Twitter handle
-    title: 'APT Meme Coin - The Future of Fun Crypto',
+    title: 'APT. Meme Coin - The Future of Fun Crypto',
     description: 'A fun, community-driven cryptocurrency built for the next generation of investors and meme lovers.',
     image: '/apt-coin.ico', // Update with actual image URL
   },

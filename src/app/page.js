@@ -15,7 +15,7 @@ export default function Home() {
           </p>
           <p> Dance to the Beat of </p>
           <p className='text-[#E16877]' style={{ fontFamily: "'Alfa Slab One', cursive" }}>
-            APT Coins
+            APT. Coins
           </p>
         </div>
         <div className='leading-[20px]'>
@@ -44,15 +44,15 @@ export default function Home() {
       <section className='text-center mt-24'>
         <p style={{ color: 'rgb(225, 104, 119)', fontFamily: 'Aldrich, serif', fontSize: '20px', paddingBottom: '15px' }}>Our Story</p>
         <div className='text-white text-[40px] font-bold' style={{ fontFamily: 'Alfa Slab One, cursive' }}>
-          <h4>About APT Coins</h4>
+          <h4>About APT. Coins</h4>
         </div>
         <div className='pt-[20px] mt-[20px] text-[24px] font-normal text-white' style={{ fontFamily: 'Aldrich, serif' }}>
-          <p>Grooving out of the world of beats and blockchain, APT Coin</p>
+          <p>Grooving out of the world of beats and blockchain, APT. Coin</p>
           <p>was born to bring music, memes, and magic together! 🎵✨</p>
           <br />
           <p>We’re not just riding the crypto wave — we’re dancing on it! </p>
           <p>Backed by an unstoppable community of music lovers, crypto</p>
-          <p>enthusiasts, and dreamers, APT Coin is here to make the</p>
+          <p>enthusiasts, and dreamers, APT. Coin is here to make the</p>
           <p>web3 world a whole lot more fun. Join the party, vibe with us,</p>
           <p>and let’s hit the right notes together!</p>
         </div>
