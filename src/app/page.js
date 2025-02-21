@@ -22,13 +22,18 @@ export default function Home() {
           <p>The next generation of meme coins!!</p>
         </div>
         <div className='buyAndJoin flex justify-center items-center mt-10 gap-5'>
-          <button className='flex justify-center items-center gap-5 py-2 px-4 bg-gradient-to-r from-green-400 to-blue-500 font-bold rounded-lg cursor-pointer select-none transform hover:scale-105 transition-transform duration-200 active:translate-y-2 active:[box-shadow:0_0px_0_0_#00FFAE,0_0px_0_0_#1b70f841] active:border-b-[0px] [box-shadow:0_5px_0_0_#00FFAE,0_10px_0_0_#1b70f841] border-b-[0.5px] border-black -rotate-6'>
-            <span className='flex flex-col justify-center items-center h-full font-bold text-lg text-black'>Buy Now!!</span>
-
-            <span role='img' aria-label='rocket'>
-              🚀
-            </span>
-          </button>
+          <a 
+            href="https://app.meteora.ag/dlmm/GxTcvEkNHwMg5Wa3KdFr7hoheeA77mFWxEtQ2BHEgpdd" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <button className='flex justify-center items-center gap-5 py-2 px-4 bg-gradient-to-r from-green-400 to-blue-500 font-bold rounded-lg cursor-pointer select-none transform hover:scale-105 transition-transform duration-200 active:translate-y-2 active:[box-shadow:0_0px_0_0_#00FFAE,0_0px_0_0_#1b70f841] active:border-b-[0px] [box-shadow:0_5px_0_0_#00FFAE,0_10px_0_0_#1b70f841] border-b-[0.5px] border-black -rotate-6'>
+              <span className='flex flex-col justify-center items-center h-full font-bold text-lg text-black'>Buy Now!!</span>
+              <span role='img' aria-label='rocket'>
+                🚀
+              </span>
+            </button>
+          </a>
         </div>
         <div className='absolute right-[-2%] top-[5%] z-[-1]'>
           <Image src='/images/png/both 1.png' width={225} height={210} alt='png 1' className='rotate-12' />
